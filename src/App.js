@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import React from "react";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          Here is the Latest React version: <strong>{React.version}</strong>
+        </p>
+
       </header>
     </div>
   );
