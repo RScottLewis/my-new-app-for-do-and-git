@@ -1,7 +1,7 @@
 const check = require("check-node-version");
 
 check(
-    { node: ">= 13.0", },
+    { node: ">= 12.18", },
     (error, result) => {
         if (error) {
             console.error(error);
